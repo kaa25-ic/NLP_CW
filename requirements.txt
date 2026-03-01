@@ -1,0 +1,30 @@
+# Core ML / HF stack
+torch==2.2.2
+transformers==4.41.2
+datasets==2.19.1
+evaluate==0.4.2
+accelerate==0.30.1
+tokenizers==0.19.1
+huggingface_hub==0.36.2
+safetensors==0.7.0
+sentencepiece==0.2.1
+
+# Data + metrics
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+scipy==1.17.0
+tqdm==4.67.3
+
+# EDA / plotting 
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# NLP analysis (EDA)
+spacy==3.8.11
+en_core_web_sm==3.8.0
+
+# File formats 
+pyarrow==16.1.0
+PyYAML==6.0.3
+requests==2.32.5
