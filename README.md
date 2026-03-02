@@ -41,7 +41,7 @@ NLP_CW/
 ├── test.txt                       # predictions on official test set
 ├── Report.pdf                     # Final submitted report
 └── requirements.txt
-
+```
 ---
 
 ## Environment setup
