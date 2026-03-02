@@ -15,29 +15,31 @@ The project includes:
 - Final predictions for **official dev** and **official test** sets (`dev.txt`, `test.txt`)
 
 ## Repository structure
+
+```text
 NLP_CW/
-├── Additional/ 
-│ ├── figures/ # Saved plots (EDA + evaluation visuals)
-│ └── exp5.txt # baseline model predictions 
-├── BestModel/ # Exported HuggingFace model artifacts
-│ ├── config.json
-│ ├── model.safetensors
-│ ├── tokenizer_config.json
-│ ├── tokenizer.json
-│ └── training_args.bin
+├── Additional/
+│   └── figures/                 # Saved plots (EDA + evaluation visuals)
+│       └── exp5.txt             # baseline model predictions
+├── BestModel/                   # Exported HuggingFace model artifacts
+│   ├── config.json
+│   ├── model.safetensors
+│   ├── tokenizer_config.json
+│   ├── tokenizer.json
+│   └── training_args.bin
 ├── Code/
-│ ├── NLP_CW_EDA.ipynb # EDA notebook
-│ ├── NLP_CW_Evaluation.ipynb # Local evaluation: ablation + error analysis
-│ └── NLP_CW_Modeling.ipynb # Training + tuning + experiments (also abailable on Colab)
+│   ├── NLP_CW_EDA.ipynb          # EDA notebook
+│   ├── NLP_CW_Evaluation.ipynb   # Local evaluation: ablation + error analysis
+│   └── NLP_CW_Modeling.ipynb     # Training + tuning + experiments
 ├── Data/
-│ ├── dev_semeval_parids-labels.csv
-│ ├── dont_patronize_me.py # Official loader utility
-│ ├── dontpatronizeme_pcl.tsv # Official dataset 
-│ ├── task4_test.tsv # Official unlabeled test set
-│ └── train_semeval_parids-labels.csv
-├── dev.txt # predictions on official dev set
-├── test.txt # predictions on official test set 
-├── Report.pdf #Final submitted report with project findings
+│   ├── dev_semeval_parids-labels.csv
+│   ├── train_semeval_parids-labels.csv
+│   ├── dont_patronize_me.py      # Official loader utility
+│   ├── dontpatronizeme_pcl.tsv   # Official dataset
+│   └── task4_test.tsv            # Official unlabeled test set
+├── dev.txt                        # predictions on official dev set
+├── test.txt                       # predictions on official test set
+├── Report.pdf                     # Final submitted report
 └── requirements.txt
 
 ---
