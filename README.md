@@ -1,6 +1,6 @@
 # NLP Coursework — PCL Detection
 
-This repository contains my solution for **Patronising and Condescending Language (PCL) detection** using **RoBERTa-base** model with data preprocessing and hyperparameter tuning:  
+This repository contains my solution for **Patronising and Condescending Language (PCL) detection** proposed in SemEval-2022 Task 4 for the purposes of Imperial College London NLP CW submission. It uses **RoBERTa-base** model with data preprocessing and hyperparameter tuning. 
 
 Key Files:
 - BestModel artifacts in /BestModel
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 1. Clone the repo from GitHub.
 2. For easiest setup move data files to the root of the directory or add the path to data loading cells.
 3. Run the notebooks in any order, they are independent.
-4. NLP_CW_Modeling.ipynb is also available on Colab for GPU utilization: https://drive.google.com/file/d/1_Ivef-3mnGhERURG7WAUw7EBplBNtKIx/view?usp=sharing. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaa25-ic/NLP_CW/blob/main/Code/NLP_CW_Modeling.ipynb)
+4. NLP_CW_Modeling.ipynb is also available on Colab for GPU utilization: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaa25-ic/NLP_CW/blob/main/Code/NLP_CW_Modeling.ipynb)
 5. Run Code/NLP_CW_Modeling.ipynb → Section 6 (BestModel) to train and generate dev.txt/test.txt.
 6. Run Code/NLP_CW_EDA.ipynb to reproduce EDA tables/figures.
 7. Run Code/NLP_CW_Evaluation.ipynb to reproduce evaluation tables/figures.
