@@ -53,7 +53,7 @@ pip install -r requirements.txt
 1. Clone the repo from GitHub.
 2. For easiest setup move datafiles to the root of the directory or add the path to data loading cells.
 3. Run the notebooks in any order, they are independent.
-4. NLP_CW_Modeling.ipynb is also available on Colab for GPU utalization, link is included in GitHub.
+4. NLP_CW_Modeling.ipynb is also available on Colab for GPU utalization: https://drive.google.com/file/d/1_Ivef-3mnGhERURG7WAUw7EBplBNtKIx/view?usp=sharing.
 
 > **Model weights (Git LFS):** This repo uses Git LFS for `BestModel/model.safetensors`.
 > If you clone the repo, install Git LFS first:
