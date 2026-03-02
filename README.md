@@ -1,6 +1,6 @@
 # NLP Coursework — PCL Detection
 
-This repository contains my solution for **Patronising and Condescending Language (PCL) detection** proposed in SemEval-2022 Task 4 for the purposes of Imperial College London NLP CW submission. It uses **RoBERTa-base** model with data preprocessing and hyperparameter tuning. 
+This repository contains my solution for **Patronising and Condescending Language (PCL) detection** proposed in SemEval-2022 Task 4 for the purposes of Imperial College London NLP CW submission. It uses **RoBERTa-base** model with data preprocessing and hyperparameter tuning.
 
 Key Files:
 - BestModel artifacts in /BestModel
@@ -12,7 +12,6 @@ The project includes:
 - Exploratory Data Analysis (EDA)
 - Model training + hyperparameter tuning (BestModel)
 - Local evaluation (ablation + error analysis)
-- Final predictions for **official dev** and **official test** sets (`dev.txt`, `test.txt`)
 
 ## Repository structure
 
@@ -41,7 +40,6 @@ NLP_CW/
 ├── test.txt                       # predictions on official test set
 ├── Report.pdf                     # Final submitted report
 └── requirements.txt
-```
 ---
 
 ## Environment setup
