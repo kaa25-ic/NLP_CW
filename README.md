@@ -6,7 +6,7 @@ Key Files:
 - BestModel artifacts in /BestModel
 - BestModel training in /Code/NLP_CW_Modeling.ipynb (note that this file contains full training and a number of experiments, the best model training can be found at the end under section 6. BestModel)
 - Final predictions for **official dev** and **official test** sets (`dev.txt`, `test.txt`)
-- Work is divided into three notebooks in /code: EDA, Modeling, and Evaluation
+- Work is divided into three notebooks in /Code: EDA, Modeling, and Evaluation
 
 The project includes:
 - Exploratory Data Analysis (EDA)
@@ -51,10 +51,18 @@ pip install -r requirements.txt
 
 ## How to run:
 1. Clone the repo from GitHub.
-2. For easiest setup move datafiles to the root of the directory or add the path to data loading cells.
+2. For easiest setup move data files to the root of the directory or add the path to data loading cells.
 3. Run the notebooks in any order, they are independent.
-4. NLP_CW_Modeling.ipynb is also available on Colab for GPU utalization: https://drive.google.com/file/d/1_Ivef-3mnGhERURG7WAUw7EBplBNtKIx/view?usp=sharing.
+4. NLP_CW_Modeling.ipynb is also available on Colab for GPU utilization: https://drive.google.com/file/d/1_Ivef-3mnGhERURG7WAUw7EBplBNtKIx/view?usp=sharing. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaa25-ic/NLP_CW/blob/main/Code/NLP_CW_Modeling.ipynb)
+5. Run Code/NLP_CW_Modeling.ipynb → Section 6 (BestModel) to train and generate dev.txt/test.txt.
+6. Run Code/NLP_CW_EDA.ipynb to reproduce EDA tables/figures.
+7. Run Code/NLP_CW_Evaluation.ipynb to reproduce evaluation tables/figures.
 
 > **Model weights (Git LFS):** This repo uses Git LFS for `BestModel/model.safetensors`.
 > If you clone the repo, install Git LFS first:
-> `git lfs install`
+```bash
+git lfs install
+git clone https://github.com/kaa25-ic/NLP_CW.git
+cd NLP_CW
+git lfs pull
+```
