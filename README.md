@@ -65,3 +65,5 @@ git clone https://github.com/kaa25-ic/NLP_CW.git
 cd NLP_CW
 git lfs pull
 ```
+
+**Note:** This repository was created for an Imperial College London NLP coursework submission and uses the official data and task setup from **SemEval-2022 Task 4 (Patronizing and Condescending Language Detection)**. See the task page: https://sites.google.com/view/pcl-detection-semeval2022/ and the original dataset paper (COLING 2020): https://aclanthology.org/2020.coling-main.518/. This repo contains only the coursework code, experiments, and predictions.
